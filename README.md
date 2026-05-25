@@ -1,16 +1,64 @@
-# React + Vite
+# 💰 Expense Tracker App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React application for tracking income and expenses with real-time balance calculation and visual analytics.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
+👉 https://expense-tracker-three-tau-35.vercel.app
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📸 Preview
+![App Screenshot](./src/assets/Screenshot.png)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+- Add, edit, and delete transactions
+- Income & expense tracking
+- Real-time balance calculation
+- Search functionality
+- Filter by transaction type
+- Expense analytics (Pie Chart)
+- Dark / Light mode
+- Persistent data with LocalStorage
+- Responsive UI
+- Custom React hook architecture
+
+---
+
+## 🛠️ Tech Stack
+
+- React (Hooks)
+- JavaScript (ES6+)
+- CSS Modules
+- Recharts
+- Vite
+- LocalStorage API
+
+---
+
+## 🧠 Architecture
+
+- Custom hook (`useExpenses`) for state logic
+- Reusable components
+- Separated constants & utils
+- Clean folder structure
+- Modular design
+
+---
+
+## 🚀 Getting Started
+
+```bash
+git clone https://github.com/your-username/expense-tracker.git
+cd expense-tracker
+npm install
+npm run dev
+```
+
+## 👨‍💻 Author
+
+Built by Dejan
