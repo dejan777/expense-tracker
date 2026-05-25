@@ -1,0 +1,140 @@
+.app {
+    min-height: 100vh;
+
+    transition:
+        background-color 0.3s ease,
+        color 0.3s ease;
+}
+
+.dark {
+    background-color: #111;
+    color: white;
+}
+
+.light {
+    background-color: #f4f4f4;
+    color: #111;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.themeButton {
+    margin-bottom: 20px;
+    padding: 10px 15px;
+
+    border: none;
+    border-radius: 8px;
+
+    cursor: pointer;
+    font-weight: bold;
+
+    transition:
+        opacity 0.2s ease,
+        transform 0.2s ease;
+}
+
+.themeButton:hover {
+    opacity: 0.9;
+    transform: translateY(-1px);
+}
+
+.darkButton {
+    background-color: white;
+    color: #111;
+}
+
+.lightButton {
+    background-color: #222;
+    color: white;
+}
+
+.searchInput {
+    width: 100%;
+    padding: 10px;
+
+    border-radius: 8px;
+    border: none;
+
+    margin-bottom: 20px;
+
+    background-color: #2a2a2a;
+    color: white;
+
+    font-size: 14px;
+}
+
+.searchInput::placeholder {
+    color: #888;
+}
+
+.searchInput:focus {
+    outline: 2px solid #3399ff;
+}
+
+.modalOverlay {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0,0,0,0.6);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 1000;
+}
+
+.modal {
+    background-color: #1e1e1e;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+
+    min-width: 300px;
+}
+
+.modalTitle {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.modalActions {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.confirmButton,
+.cancelButton {
+    border: none;
+    padding: 10px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+
+    color: white;
+    font-weight: bold;
+
+    transition: opacity 0.2s ease;
+}
+
+.confirmButton {
+    background-color: #ff4d4d;
+}
+
+.cancelButton {
+    background-color: #3399ff;
+}
+
+.confirmButton:hover,
+.cancelButton:hover {
+    opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 12px;
+    }
+}

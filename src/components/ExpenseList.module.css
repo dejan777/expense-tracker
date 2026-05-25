@@ -1,0 +1,46 @@
+.expenseList {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.title {
+    color: white;
+    margin-bottom: 5px;
+}
+
+.itemCount {
+    color: #aaa;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.filterSelect {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+
+    background-color: #2a2a2a;
+    color: white;
+
+    cursor: pointer;
+}
+
+.transactionsContainer {
+    margin-top: 20px;
+}
+
+.emptyState {
+    color: #aaa;
+    text-align: center;
+    padding: 20px 0;
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .filterSelect {
+        width: 100%;
+    }
+}

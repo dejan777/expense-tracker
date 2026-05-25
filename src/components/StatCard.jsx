@@ -1,0 +1,19 @@
+import styles from "./StatCard.module.css";
+
+function StatCard({title, value, color}) {
+    return (
+        <div className={styles.card}>
+            <h3 className={styles.title}>
+                {title}
+            </h3>
+            <p 
+                className={styles.value}
+                style={{ color }}
+            >
+                {value}
+            </p>
+        </div>
+    );
+}
+
+export default StatCard;

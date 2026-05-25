@@ -1,0 +1,65 @@
+.formContainer {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.title {
+    color: white;
+    margin-bottom: 15px;
+}
+
+.input,
+.select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+
+    background-color: #2a2a2a;
+    color: white;
+
+    font-size: 14px;
+}
+
+.input:focus,
+.select:focus {
+    outline: 2px solid #3399ff;
+}
+
+.button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+    font-weight: bold;
+
+    transition:
+        opacity 0.2s ease,
+        transform 0.2s ease;
+}
+
+.button:hover {
+    opacity: 0.9;
+    transform: translateY(-1px);
+}
+
+.addButton {
+    background-color: #00ff99;
+    color: #111;
+}
+
+.editButton {
+    background-color: #3399ff;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .formContainer {
+        padding: 15px;
+    }
+}

@@ -1,0 +1,82 @@
+.expenseItem {
+    background-color: #2a2a2a;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.expenseItem:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+}
+
+.info {
+    flex: 1;
+}
+
+.title {
+    color: white;
+}
+
+.category {
+    color: #aaa;
+    font-size: 14px;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+}
+
+.amount {
+    font-weight: bold;
+}
+
+.income {
+    color: #00ff99;
+}
+
+.expense {
+    color: #ff4d4d;
+}
+
+.deleteButton {
+    margin-left: 15px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 10px;
+    cursor: pointer;
+
+    transition: opacity 0.2s ease;
+}
+
+.deleteButton:hover {
+    opacity: 0.8;
+}
+
+.editButton {
+    margin-left: 10px;
+    background-color: #3399ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 10px;
+    cursor: pointer;
+
+    transition: opacity 0.2s ease;
+}
+
+.editButton:hover {
+    opacity: 0.8;
+}

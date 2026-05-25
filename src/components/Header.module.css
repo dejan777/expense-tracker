@@ -1,0 +1,24 @@
+.header {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #333;
+    padding-bottom: 15px;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.dark {
+    color: #00ff99;
+}
+
+.light {
+    color: #222;
+}
+
+.subtitle {
+    margin-top: 5px;
+    color: #888;
+    font-size: 14px;
+}
